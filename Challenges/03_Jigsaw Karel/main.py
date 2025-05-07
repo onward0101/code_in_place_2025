@@ -48,7 +48,7 @@ def move_to_wall():
 
 def face_east():
     """
-    Rotate the karel until it is facing east.
+    Rotates the karel until it is facing east.
     """
     while not_facing_east():
         turn_left()
